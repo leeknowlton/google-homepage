@@ -1,0 +1,64 @@
+html, body {
+  height:100%;
+  font-family: arial, sans-serif;
+  overflow: hidden;
+}
+
+
+header li{
+  padding-left: 5px;
+  float: right;
+}
+
+li{
+  font-size: 13px;
+  list-style-type: none;
+}
+
+footer li{
+  /*will need to be changed*/
+  padding-left: 5px;
+}
+
+.align-right li{
+  float: right;
+}
+
+.align-left li{
+  float: left;
+}
+
+#fbar{
+  background: #F2F2F2 none repeat scroll 0% 0%;
+  border-top: 1px solid #E4E4E4;
+  min-width: 980px;
+  line-height: 40px;
+  clear: both;
+}
+
+#main_search_bar{
+  max-width: 584px;
+}
+
+#logo{
+  height: 92px;
+  width: 272px;
+}
+
+#center_stage{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container{
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  position: relative;
+  margin: 0 auto -4em;
+  overflow: hidden;
+
+}
